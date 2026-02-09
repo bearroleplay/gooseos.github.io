@@ -1,0 +1,32 @@
+{
+  "status": "operational",
+  "updated": "2024-01-15T15:30:00Z",
+  "servers": {
+    "moscow": {
+      "name": "GOOSE-MOW-01",
+      "status": "offline",
+      "type": "updates",
+      "location": "Moscow, RU",
+      "uptime": "99.8%",
+      "response_time": 28,
+      "last_check": "2024-01-15T15:29:45Z",
+      "endpoints": {
+        "status": "https://gooseos.github.io/gooseos-moscow/",
+        "downloads": "https://gooseos.github.io/gooseos-downloads/moscow/"
+      }
+    },
+    "frankfurt": {
+      "name": "GOOSE-FRA-01",
+      "status": "offline",
+      "type": "cdn",
+      "location": "Frankfurt, DE",
+      "uptime": "99.5%",
+      "response_time": 42,
+      "last_check": "2024-01-15T15:29:50Z",
+      "endpoints": {
+        "status": "https://gooseos.github.io/gooseos-frankfurt/",
+        "downloads": "https://gooseos.github.io/gooseos-downloads/frankfurt/"
+      }
+    }
+  }
+}
