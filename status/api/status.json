@@ -1,0 +1,34 @@
+{
+  "status": "operational",
+  "updated": "2024-01-15T16:30:00Z",
+  "servers": {
+    "moscow": {
+      "id": "moscow",
+      "name": "GOOSE-MOW-01",
+      "status": "online",
+      "location": "Moscow, Russia",
+      "country": "RU",
+      "ping": 28,
+      "uptime": "99.8%",
+      "type": "updates",
+      "endpoints": {
+        "status": "https://bearroleplay.github.io/gooseos.github.io/status/moscow/",
+        "downloads": "https://bearroleplay.github.io/gooseos.github.io/downloads/#moscow"
+      }
+    },
+    "frankfurt": {
+      "id": "frankfurt",
+      "name": "GOOSE-FRA-01",
+      "status": "load",
+      "location": "Frankfurt, Germany",
+      "country": "DE",
+      "ping": 142,
+      "uptime": "99.5%",
+      "type": "cdn",
+      "endpoints": {
+        "status": "https://bearroleplay.github.io/gooseos.github.io/status/frankfurt/",
+        "downloads": "https://bearroleplay.github.io/gooseos.github.io/downloads/#frankfurt"
+      }
+    }
+  }
+}
